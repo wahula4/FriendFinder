@@ -12,7 +12,7 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function(req, res) {
-        var difference = 1000; 
+        var difference = 1000;
         var matchName = "";
         var matchPhoto = "";
 
@@ -45,7 +45,7 @@ module.exports = function(app) {
         //Once the cycle is complete, the friend with the least difference will remain, and that data will be sent as a json object back to the client
         res.json({ friendName: matchName, friendURL: matchPhoto });
 
-        //Lastly, push new User's data into the friends array
+        //Lastly, push new friend's data into the friends array
         friendData.push(newFriend);
     });
 };

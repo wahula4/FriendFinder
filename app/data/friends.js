@@ -2,7 +2,7 @@
 var friendArray = [
   {
   "friendName":"Tony",
-  "friendURL":"https://s-media-cache-ak0.pinimg.com/736x/f5/1d/08/f51d08be05919290355ac004cdd5c2d6--pikachu-tattoo-pikachu-drawing.jpg",
+  "friendURL":"http://www.scified.com/sites_pics/7577812232262514.png",
   "scores":[
       5,
       1,
