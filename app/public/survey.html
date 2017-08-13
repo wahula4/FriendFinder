@@ -1,1 +1,250 @@
 
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Friend Finder</title>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+     <h1 class="center-align">Find you movie friend Survey</h1>
+
+     <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="name" type="text" name="name" class="validate">
+          <label for="name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">photo_camera</i>
+          <label for="curl">Photo URL</label>
+          <input id="curl" type="url" name="curl" data-error=".errorTxt5">
+          <div class="errorTxt5"></div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<div class="container">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6 offset-s3">
+        <select id="q1">
+          <option value="" disabled selected>Choose your option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2 (Mostly Disagree)</option>
+          <option value="3">3 (Indifferent)</option>
+          <option value="4">4 (Mostly Agree)</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <label>Snacks at the movie theater are a MUST!</label>
+      </div>
+    </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q2">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Netflix is a gift from the heavens</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q3">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Nicholas Cage was ahead of his time</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q4">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>'Die Hard' is a great movie for a first date</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q5">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Animated films are just for kids</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q6">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Will Ferrell movies are a guaranteed good time</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q7">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>People who quote movies while they are watching them are the worst</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q8">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Watching horror movies around Halloween is required</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="q9">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 (Mostly Disagree)</option>
+              <option value="3">3 (Indifferent)</option>
+              <option value="4">4 (Mostly Agree)</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <label>Owning DVDs is pointless</label>
+          </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <select id="q10">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Mostly Disagree)</option>
+                <option value="3">3 (Indifferent)</option>
+                <option value="4">4 (Mostly Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+              <label>My life would make a great movie</label>
+            </div>
+        </div>
+      </from>
+    </div>
+
+  <!-- Modal Trigger -->
+  <div class="row center-align">
+    <a class="waves-effect waves-light btn modal-trigger submit" href="#modal1">Submit</a>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h2 id="matchName"></h2>
+        <img id="matchImg" src="" alt="" style="width: 350px">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Table Link</a></p>
+      </div>
+    </footer>
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+   </body>
+ </html>
+
+ <script type="text/javascript">
+   $(document).ready(function() {
+    $('select').material_select();
+    $('#modal1').modal();
+  });
+
+    // FORM VALIDATION
+    // $('select').validate({
+    //         rules: {
+    // 			    curl: {
+    //                 required: true,
+    //                 url:true
+    //             }
+    //           }
+    //      });
+
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+      // Here we grab the form elements
+      var newFriend = {
+        friendName: $("#name").val().trim(),
+        friendURL: $("#curl").val().trim(),
+        scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(),
+                 $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val() ]
+      };
+      console.log(newFriend);
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      var currentURL = window.location.origin;
+
+      $.post(currentURL + "/api/friends", newFriend,
+        function(data) {
+
+          $("#matchName").text(data.friendName);
+          $('#matchImg').attr("src", data.friendURL);
+          // Clear the form when submitting
+          // $("#name").val("");
+          // $("#curl").val("");
+          // $("#q1").val(""), $("#q2").val(""), $("#q3").val(""), $("#q4").val(""), $("#q5").val(""),
+          // $("#q6").val(""), $("#q7").val(""), $("#q8").val(""), $("#q9").val(""), $("#q10").val("")
+
+
+        });
+    });
+</script>
